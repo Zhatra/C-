@@ -1,17 +1,24 @@
 #include <iostream>
 
 int main(){
+    //integers (whole number)
+    int x = 5;
+    int y = 6;
+    //char (only one caracter)
+    char z = 'A';
+    char e = 'Z';
+    //double (number including decimal)
+    double s = 2.23;
+    double o = 2.45;
+    //boolean (true or false)
+    bool ji = true;
+    bool xd = false;
+    //string 
+    std::string msg ="hola";
+    std::string msg1 ="xd";
 
-    //This is a comment
-    /*
-        This 
-        is 
-        a 
-        multi-line 
-        comment
-    */
+    std::cout << msg1 << '\n';
+    std::cout << msg;
 
-    std::cout << "I like bananas!" << '\n';
-    std::cout << "It's really good!" << '\n';
     return 0;
 }
